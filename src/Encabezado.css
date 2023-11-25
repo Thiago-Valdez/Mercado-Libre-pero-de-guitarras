@@ -1,0 +1,35 @@
+header {
+    background-color: #1135ad;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 10px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: #fff; 
+    color: #1135ad;
+    border-radius: 5px; 
+    font-family: 'Oswald Bold', sans-serif;
+  }
+
+  body {
+    margin: 0;
+  }
+  
