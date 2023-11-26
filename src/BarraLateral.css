@@ -1,0 +1,32 @@
+  .barra {
+    width: 300px;
+    height: 1000px;
+    position: fixed;
+    background-color: #262727;
+    float: left;
+    margin-right: 20px;
+  }
+  
+  .barra ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .barra li {
+    margin: 40px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: #fff;
+    color: #1135ad;
+    border-radius: 5px;
+    font-family: 'Oswald Bold', sans-serif;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+  }
+  
