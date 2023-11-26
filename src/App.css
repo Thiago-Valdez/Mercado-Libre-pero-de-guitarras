@@ -2,13 +2,32 @@
   text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.product-list {
+  list-style: none;
+}
+
+.product-item {
+  margin: 10px;
+  text-align: center;
+}
+
+.product-image {
+  height: 300px; /* Ajusta según tus preferencias */
+}
+
+.product-name {
+  font-family: 'Oswald Bold', sans-serif;
+  font-size: 30px; /* Ajusta según tus preferencias */
+  margin-top: 00px; /* Ajusta según tus preferencias */
+}
+
+
+li img {
+  margin-top: 40px;
+  height: 300px;
+}
+
+li p {
+  font-family: 'Oswald Bold', sans-serif;
+  font-size: 50px;
 }

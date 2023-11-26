@@ -21,13 +21,13 @@ function App() {
       <BarraLateral onSelectCategory={handleSelectCategory} />
       <main>
         <h2>Productos</h2>
-        <ul>
+        <ul className="product-list">
           {filteredProducts.map((product, index) => (
-            <li key={index}>
+            <li key={index} className="product-item">
               <a href={`/producto/${product.name}`}>
-                <img src={product.image} alt={product.name} />
+                <img src={product.image} alt={product.name} className="product-image" />
+                <p className="product-name">{product.name}</p>
               </a>
-              <p>{product.name} - {product.description}</p>
             </li>
           ))}
         </ul>
