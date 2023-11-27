@@ -23,7 +23,7 @@ const productos = [
     { name: 'Cable TS Ernie Ball Mallado', description: 'Cable para guitarra eléctrica de 10 pulgadas entrada TS', image: 'https://rvb-img.reverb.com/image/upload/s--WNjQHx8---/f_auto,t_large/v1637102344/beyrv8jjgjz0yus33bgy.jpg', categoria: 'accesorio' },
     { name: 'Capotraste Dunlop 83C Curvado', description: 'Capotraste para guitarra marca Dunlop', image: 'https://rvb-img.reverb.com/image/upload/s--OgRbjRsa--/a_exif,c_limit,e_unsharp_mask:80,f_auto,fl_progressive,g_south,h_620,q_90,w_620/v1437754763/j22at8g6r2ixyvb92gzq.jpg', categoria: 'accesorio' },
     { name: 'Cuerdas D Addario XL Super Light 08-38', description: 'Cuerdas para guitarra electrica calibre ultra ligero 08', image: 'https://rvb-img.reverb.com/image/upload/s--_-R7F1cU--/f_auto,t_large/v1599567384/gqugmizzykesqzb1bs8s.jpg', categoria: 'accesorio' },
-    { name: 'Puas Dunloc Tortex Standard .88', description: 'Pack de 12 puas marca dunloc forma estándar .88mm', image: '', categoria: 'accesorio' },
+    { name: 'Puas Dunloc Tortex Standard .88', description: 'Pack de 12 puas marca dunloc forma estándar .88mm', image: 'https://rvb-img.reverb.com/image/upload/s--6-OwyE8R--/f_auto,t_large/v1587057457/ohbe1gfnofeqibejbieb.jpg', categoria: 'accesorio' },
 
 
 ];
