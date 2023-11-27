@@ -12,13 +12,15 @@
 }
 
 .product-image {
-  height: 300px; /* Ajusta según tus preferencias */
+  height: 300px;
+  cursor: pointer;
 }
 
 .product-name {
   font-family: 'Oswald Bold', sans-serif;
-  font-size: 30px; /* Ajusta según tus preferencias */
-  margin-top: 00px; /* Ajusta según tus preferencias */
+  font-size: 30px;
+  margin-top: 00px;
+  cursor: pointer;
 }
 
 

@@ -12,12 +12,12 @@ const DetalleProducto = ({ product, onGoBack }) => {
   };
 
   return (
-    <div className="product-details">
-      <img src={product.image} alt={product.name} className="product-image" />
-      <div className="product-info">
-        <h2 className="product-name">{product.name}</h2>
-        <p className="product-description">{product.description}</p>
-        <button className="back-button" onClick={handleGoBack}>
+    <div className="product-details1">
+      <img src={product.image} alt={product.name} className="product-image1" />
+      <div className="product-info1">
+        <h2 className="product-name1">{product.name}</h2>
+        <p className="product-description1">{product.description}</p>
+        <button className="back-button1" onClick={handleGoBack}>
           Volver
         </button>
       </div>
