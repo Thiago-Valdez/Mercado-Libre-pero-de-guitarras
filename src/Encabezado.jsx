@@ -1,3 +1,5 @@
+//encabezado.jsx
+
 import React from 'react';
 import './Encabezado.css';
 

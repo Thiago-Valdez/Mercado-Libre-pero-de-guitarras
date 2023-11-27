@@ -1,3 +1,6 @@
+//producto.jsx
+
+import React from "react";
 const productos = [
     { name: 'Gibson LP Standard 1986', description: 'Guitarra LP HH Cuerpo sólido del año 1986 con acabado Sunburst', image: 'https://i.ibb.co/1nfVbyv/lfhzzgtrdtqwwmprye0u.webp', categoria: 'electrica' },
     { name: 'Fender Telecaster American Deluxe Edition 1972', description: 'Guitarra Telecaster HH Cuerpo sólido basada en las series del 72 con acabado negro', image: 'https://i.ibb.co/p4BdSvY/cx5zxkz9bba33rus1ih3.webp', categoria: 'electrica' },
