@@ -1,33 +1,23 @@
-// encabezado.jsx
+// Encabezado.jsx
 
 import React, { useState } from 'react';
 import './Encabezado.css';
 
-function Encabezado() {
-  const [searchTerm, setSearchTerm] = useState('');
-
+function Encabezado({ onFilterProducts }) {
   const handleInicioClick = () => {
     window.location.reload();
   };
 
-  const handleInputChange = (event) => {
-    const { value } = event.target;
-    setSearchTerm(value);
-    // Puedes agregar aquí la lógica para filtrar los productos por nombre
-    // y actualizar el estado de la lista de productos en el componente App.
+  const handleSearch = (event) => {
+    const searchTerm = event.target.value;
+    onFilterProducts(searchTerm);
   };
 
   return (
     <header>
       <img src="https://i.ibb.co/Ct4GtpW/GUITARRALIBRE-1-removebg-preview-3.png" alt="GUITARRALIBRE" />
       <form action="#" method="get">
-        <input
-          type='text'
-          name='search'
-          placeholder='Buscar en la página'
-          value={searchTerm}
-          onChange={handleInputChange}
-        />
+        <input type='text' name='search' placeholder='Buscar en la página' onChange={handleSearch}></input>
         <button type='submit' name='Buscar'> </button>
       </form>
 

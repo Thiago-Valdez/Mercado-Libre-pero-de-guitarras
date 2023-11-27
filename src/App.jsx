@@ -1,4 +1,5 @@
 // App.jsx
+
 import React, { useState } from 'react';
 import './App.css';
 import Encabezado from './Encabezado';
@@ -29,9 +30,15 @@ function App() {
     setShowProductDetails(false);
   };
 
+  const handleFilterProducts = (searchTerm) => {
+    // Filtrar productos por nombre
+    const filtered = products.filter(product => product.name.toLowerCase().includes(searchTerm.toLowerCase()));
+    setFilteredProducts(filtered);
+  };
+
   return (
     <div className="App">
-      <Encabezado />
+      <Encabezado onFilterProducts={handleFilterProducts} />
       <BarraLateral onSelectCategory={handleSelectCategory} />
       <main>
         {showProductDetails ? (
