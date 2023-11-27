@@ -29,17 +29,6 @@ header {
     height: 20px;
     width: 500px;
   }
-  
-  button[type="submit"] {
-    padding: 0.5rem 1rem;
-    background-color: #fff;
-    color: #1135ad;
-    border: none;
-    border-radius: 5px;
-    font-size: 1;
-    height: 40px;
-    width: 50px;
-  }
 
   nav {
     display: flex;
