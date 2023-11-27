@@ -1,5 +1,3 @@
-//barralateral.jsx
-
 import React from 'react';
 import './BarraLateral.css';
 

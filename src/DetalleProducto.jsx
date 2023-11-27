@@ -1,6 +1,5 @@
-// DetalleProducto.jsx
 import React from 'react';
-import './DetalleProducto.css'; // Importa el archivo de estilos
+import './DetalleProducto.css';
 
 const DetalleProducto = ({ product, onGoBack }) => {
   const handleGoBack = () => {

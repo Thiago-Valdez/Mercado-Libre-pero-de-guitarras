@@ -23,6 +23,16 @@
   cursor: pointer;
 }
 
+.gratitude-page img {
+  margin-top: 500px;
+}
+
+.gratitude-page p {
+  margin-left: 300px;
+  font-size: 30px;
+  font-family: 'Oswald Bold', sans-serif;
+}
+
 
 li img {
   margin-top: 40px;

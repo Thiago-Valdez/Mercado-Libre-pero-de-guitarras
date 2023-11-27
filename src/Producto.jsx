@@ -1,5 +1,3 @@
-//producto.jsx
-
 import React from "react";
 const productos = [
     { name: 'Gibson LP Standard 1986', description: 'Guitarra LP HH Cuerpo sólido del año 1986 con acabado Sunburst', image: 'https://i.ibb.co/1nfVbyv/lfhzzgtrdtqwwmprye0u.webp', categoria: 'electrica' },
